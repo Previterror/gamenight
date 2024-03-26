@@ -15,7 +15,7 @@
   <title>Gamenight</title>
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-primary text-danger">
   <!-- SECTION -->
   <header>
     <h1>Gamenight</h1>
@@ -29,8 +29,8 @@
     </section>
 
     <section class="container">
-      <div class="row">
-        <div id="leaderboard" class="col-5">
+      <div class="row justify-content-around">
+        <div id="leaderboard" class="col-11">
           <div>
             <img src="" alt="Player Photo">
             <span>Player Name</span>
@@ -39,7 +39,15 @@
             <button>+</button>
           </div>
         </div>
-        <button class="btn btn-warning">Add Player</button>
+        <form id="addForm" onsubmit="app.PlayerController.addPlayer(event)">
+          <div>
+            <label for="name">Player Name:</label>
+            <input type="text" minlength="2" maxlength="15" name="name" required />
+          </div>
+          <div>
+            <button type="submit" class="btn btn-warning">Add Player</button>
+          </div>
+        </form>
       </div>
     </section>
 

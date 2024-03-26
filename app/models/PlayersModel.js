@@ -6,8 +6,8 @@ export class Player {
 
     get PlayerTemplateCard() {
         return `
-          <div class="card>
-            <div class="card-body">
+          <div class="card col-11">
+            <div class="card-body col-11">
             ${this.name} -  ${this.score} <button onclick="app.PlayerController.scorePoint('${this.name}')">+</button>
             </div>
           </div>
