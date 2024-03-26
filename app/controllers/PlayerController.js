@@ -12,6 +12,12 @@ export class PlayerController {
         drawPlayers()
     }
 
+    reducePoint(playerName) {
+        // console.log(playerName);
+        playerService.reducePoint(playerName)
+        drawPlayers()
+    }
+
     addPlayer(event) {
         event.preventDefault();
         let formOutput = event.target.elements.name.value;

@@ -3,16 +3,16 @@
   "javascript.preferences.importModuleSpecifierEnding": "js",
   "workbench.colorCustomizations": {
     "commandCenter.border": "#15202b99",
-    "sash.hoverBorder": "#f287a2",
-    "statusBar.background": "#ed597e",
+    "sash.hoverBorder": "#65c89b",
+    "statusBar.background": "#42b883",
     "statusBar.foreground": "#15202b",
-    "statusBarItem.hoverBackground": "#e82b5a",
-    "statusBarItem.remoteBackground": "#ed597e",
+    "statusBarItem.hoverBackground": "#359268",
+    "statusBarItem.remoteBackground": "#42b883",
     "statusBarItem.remoteForeground": "#15202b",
-    "titleBar.activeBackground": "#ed597e",
+    "titleBar.activeBackground": "#42b883",
     "titleBar.activeForeground": "#15202b",
-    "titleBar.inactiveBackground": "#ed597e99",
+    "titleBar.inactiveBackground": "#42b88399",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#ed597e",
+  "peacock.color": "#42b883",
 }
